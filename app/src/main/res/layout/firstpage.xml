@@ -134,4 +134,5 @@
         android:textSize="11sp"
         android:textColor="#6C7380"
         android:text="카카오" />
+
 </RelativeLayout>
