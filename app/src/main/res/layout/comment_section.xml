@@ -1,0 +1,45 @@
+<!-- comment_section.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- 코멘트를 보여주는 TextView -->
+    <TextView
+        android:id="@+id/commentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="5dp"
+        android:text="댓글"
+        android:textColor="#000000"
+        android:fontFamily="@font/a"
+        android:textSize="16sp" />
+
+    <!-- 코멘트를 입력하는 EditText -->
+    <EditText
+        android:id="@+id/commentEditText"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/round_background"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="10sp"
+        android:hint="  댓글을 입력하실 수 있습니다." />
+
+
+
+    <!-- 코멘트 제출 버튼 -->
+    <Button
+        android:id="@+id/submitCommentButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/edittext"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text=">" />
+
+</RelativeLayout>

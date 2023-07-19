@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FAFB">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/b"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="정보" />
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/arrow" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        android:layout_marginTop="80dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/b"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:text="개발 취준 서울 쪽에서 하실 분 있나요?" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/bookmark" />
+
+            <RelativeLayout
+                android:id="@+id/hash"
+                android:layout_width="85dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/edittext">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/a"
+                    android:lineSpacingExtra="12dp"
+                    android:text="#기획/아이디어"
+                    android:textColor="#000000"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/hash2"
+                android:layout_width="55dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/edittext">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/a"
+                    android:lineSpacingExtra="12dp"
+                    android:text="#공모전"
+                    android:textColor="#000000"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="368dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="90dp"
+                android:fontFamily="@font/a"
+                android:textSize="12sp"
+                android:textColor="#000000"
+                android:lineSpacingExtra="5dp"
+                android:text="안녕하세요! \n\n서울쪽에서 프론트엔드, 백엔드, 풀스택 등 웹개발쪽으로 취업을
+        희망하는 취준생들끼리 자유로운 스터디를 만들고자 합니다. \n\n날짜와 시간대만 정해두고 장소에 나와 자유롭게 공부하고,
+         코테, 프로젝트, 면접 준비 등 모르는 부분에 대해 서로 정보\n공유를 목적으로 함께할 사람을 구합니다. \n\n개발 취준하실 분은 같이 함께 해보면 좋을 것 같습니다!" />
+
+            <RelativeLayout
+                android:id="@+id/detail"
+                android:layout_width="340dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="275dp"
+                android:background="@drawable/edittext">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/a"
+                    android:lineSpacingExtra="10dp"
+                    android:text="마감일 : 없음\n가능 시간 : 토요일 PM 1시~7시, 일요일 PM 1시~7시\n모집인원 : 4명"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/roundButton"
+                android:layout_width="350dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="380dp"
+                android:background="@drawable/round_button_background"
+                android:fontFamily="@font/c"
+                android:text="지원하기"
+                android:textColor="#7165FF"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="428dp"
+                android:src="@drawable/profile" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="73dp"
+                android:layout_marginTop="436dp"
+                android:fontFamily="@font/a"
+                android:lineSpacingExtra="10dp"
+                android:text="개발자 님"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="436dp"
+                android:fontFamily="@font/a"
+                android:lineSpacingExtra="10dp"
+                android:text="LV 2"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="450dp"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="470dp"
+                android:background="@android:color/darker_gray" />
+
+            <include
+                layout="@layout/comment_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_below="@id/detail" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+    <View
+        android:layout_width="450dp"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="690dp"
+        android:background="@android:color/darker_gray" />
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="88dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="695dp"
+        android:alpha="0.5"
+        android:src="@drawable/home" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="733dp"
+        android:fontFamily="@font/a"
+        android:textSize="10sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="홈" />
+
+    <ImageView
+        android:id="@+id/full"
+        android:layout_width="88dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="695dp"
+        android:alpha="0.5"
+        android:src="@drawable/full" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="733dp"
+        android:fontFamily="@font/a"
+        android:textSize="10sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="전체 보기" />
+
+    <ImageView
+        android:id="@+id/message"
+        android:layout_width="88dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="695dp"
+        android:alpha="0.5"
+        android:src="@drawable/message" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="229dp"
+        android:layout_marginTop="733dp"
+        android:fontFamily="@font/a"
+        android:textSize="10sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="채팅" />
+
+    <ImageView
+        android:id="@+id/mypage"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="695dp"
+        android:src="@drawable/mypagecolor" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="312dp"
+        android:layout_marginTop="733dp"
+        android:fontFamily="@font/b"
+        android:textSize="11sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="MY" />
+
+</RelativeLayout>

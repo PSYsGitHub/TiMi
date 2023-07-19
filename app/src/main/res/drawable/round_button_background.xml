@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- 배경색 설정 (흰색) -->
+    <corners android:radius="20dp" /> <!-- 버튼의 둥근 모서리 설정 -->
+</shape>
